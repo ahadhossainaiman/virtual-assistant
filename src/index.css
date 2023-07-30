@@ -4,8 +4,9 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(204, 196, 196, 0.87);
+  background-color: #000000;
+  border: 3px solid rgb(144, 8, 255);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,8 +16,8 @@
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
+  font-weight: 800;
+  color: #25f7ec;
   text-decoration: inherit;
 }
 a:hover {
@@ -27,7 +28,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: 500px;
   min-height: 100vh;
 }
 
@@ -48,7 +49,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #000cf8;
 }
 button:focus,
 button:focus-visible {
