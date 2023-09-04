@@ -100,7 +100,7 @@ function App() {
 
   return (
     <div className="App">
-      <a href="https://e-mart-e2bb8.web.app/">
+      <a href="https://digio-mart.netlify.app/">
         <h2>
           Virtual Assistant{"  "}
           <img
