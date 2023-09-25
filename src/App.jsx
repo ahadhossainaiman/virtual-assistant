@@ -10,9 +10,13 @@ import {
   MessageInput,
   TypingIndicator,
 } from "@chatscope/chat-ui-kit-react";
+// require("dotenv").config();
+import { API_KEY } from "./Token";
 
-const API_KEY = process.env.OPEN_API_TOKEN;
+// const API_KEY = process.env.OPEN_API_TOKEN;
+// console.log("aiman", API_KEY);
 
+// const API_KEY = "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";
 // "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";
 // "Explain things like you would to a 10 year old learning how to code."
 const systemMessage = {
