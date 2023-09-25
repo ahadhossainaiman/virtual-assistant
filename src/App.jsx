@@ -11,7 +11,9 @@ import {
   TypingIndicator,
 } from "@chatscope/chat-ui-kit-react";
 
-const API_KEY = "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";
+const API_KEY = process.env.OPEN_API_TOKEN;
+
+// "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";
 // "Explain things like you would to a 10 year old learning how to code."
 const systemMessage = {
   //  Explain things like you're talking to a software professional with 5 years of experience.
